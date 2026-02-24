@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+body {
+  background: linear-gradient(135deg, #f0f4f9 0%, #e0e7ef 100%);
+  color: #23395d;
+  font-family: 'Segoe UI', 'Roboto', 'Arial', sans-serif;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+}
+  display: flex;
+
+.octofit-logo {
+  height: 48px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.navbar {
+  background: linear-gradient(90deg, #23395d 0%, #406080 100%) !important;
+  box-shadow: 0 2px 8px rgba(35, 57, 93, 0.08);
+}
+.navbar-brand, .navbar-nav .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+  color: #ffb347 !important;
+}
+
+.card {
+  border-radius: 1rem;
+  box-shadow: 0 2px 12px rgba(35, 57, 93, 0.07);
+  background: #fff;
+}
+
+.card-title {
+  color: #23395d;
+  letter-spacing: 1px;
+}
+
+.table {
+  background: #f8fafc;
+  color: #23395d;
+}
+.table-primary th {
+  background: #406080 !important;
+  color: #fff !important;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+  background-color: #e9f1fb;
+}
+
+.btn, .btn-primary {
+  background: linear-gradient(90deg, #406080 0%, #ffb347 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  transition: background 0.2s;
+}
+.btn:hover, .btn-primary:hover {
+  background: linear-gradient(90deg, #ffb347 0%, #406080 100%);
+  color: #23395d;
+}
+
+a, .App-link {
+  color: #406080;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+a:hover, .App-link:hover {
+  color: #ffb347;
+}
+
+.alert-info {
+  background: #e9f1fb;
+  color: #23395d;
+  border: none;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #23395d;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+  color: white;
+
+/* Favicon and logo tweaks handled in public/index.html and App.js */
+  to {
+
+/* ...existing code... */
